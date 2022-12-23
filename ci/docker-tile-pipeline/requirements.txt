@@ -7,3 +7,5 @@ click>=6.2
 docker-py>=1.6.0
 pexpect>=4.2.1
 pypandoc
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
